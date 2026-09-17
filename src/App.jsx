@@ -1,5 +1,6 @@
 import Header from "./Header"
 import Dot from "./dot"
+import Ingredient from "./ingredient"
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <>
       <Header />
       <Dot/>
+      <Ingredient/>
 
     </>
   )
