@@ -1,7 +1,14 @@
 export default function Dot() {
+
+
+    function handleSubmit () {
+        console.log("Form submitted!");
+
+    }
+    
     return (
         <main>
-            <form className="add-ingredient-form">
+            <form  onSubmit={handleSubmit} className="add-ingredient-form">
                 <input
                     type="text"
                     placeholder="e.g. oregano"

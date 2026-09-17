@@ -4,6 +4,8 @@ export default function Ingredient () {
         <li key={ingredient}>{ingredient}</li>
 
     ))
+
+    
     return (
         <main>
             <ul>
